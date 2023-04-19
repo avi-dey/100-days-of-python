@@ -1,0 +1,6 @@
+## Escaping Maze -- intermediate challenge code
+
+# couldn't solve it myself
+# always getting infinite loops(runs >=1000) here and there
+
+# will come back to this later
