@@ -1,0 +1,24 @@
+I think you need to re-work your 'total' function. Sometimes it'll falsely claim a player has gone bust even if they haven't, at least in my experience.
+
+Try something along the following:
+
+def determine_total(hand):
+    total = 0
+    ace_11s = 0
+
+    for card in hand:
+        if card in range(11):
+            total += card
+        elif card in ['J', 'K', 'Q']:
+            total += 10
+        else:
+            total += 11
+            ace_11s += 1
+
+    while ace_11s and total > 21:
+        total -= 10
+        ace_11s -= 1
+        
+    return total
+
+This worked 100% accurately for me.
