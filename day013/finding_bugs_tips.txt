@@ -1,0 +1,10 @@
+1. describe the problem / code
+2. reproduce the bug
+3. play computer : pretending to be the computer and understanding what you're supposed to do in each line
+4. fix the errors ( the named errors that python throws you, those are solvable )
+5. print is your friend : print everything that your code is doing
+6. use a debugger
+7. take a break : take a break and divert your brain into other things. come back with a fresh mind
+8. ask a friend (preferably a developer)
+9. run your code often. run every little piece of code you write and keep running new code you are writing. don't wait for the time you write a lot of code
+10. seach StackOverflow
