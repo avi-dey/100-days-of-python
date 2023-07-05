@@ -1,5 +1,6 @@
 ## INSTAGRAM FOLLOWERS GUESS GAME: WHETHER AN INSTA ACCOUNT HAS HIGHER OR LOWER INSTA FOLLOWER COUNT
 
+## LODU CODE: DELETING DATA FROM game_data.py
 ## What did I learn from this ?
 # 1. the use of list.index() method
 # 2. only functions have local scoping
@@ -43,7 +44,8 @@ def game():
 
     account_a = random.choice(data)
     data.remove(account_a) # removing account_a from out data to: 1.prevent repeatation and 2.comparing one account with itself
-
+    # LODU CODE: deleting data from game_data and making the code small 
+    
     account_b = random.choice(data)
 
     # game
