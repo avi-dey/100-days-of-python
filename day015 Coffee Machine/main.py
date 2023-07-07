@@ -1,5 +1,3 @@
-import os
-
 # constant
 MENU = {
     "espresso": {
@@ -81,12 +79,12 @@ def is_money_sufficient(cost, total_paid):
 
 
 # TODO: deduct the resources that were used to make up the coffee
-def deduct_resources(resources, order_ingredients):
+def deduct_resources(resource, order_ingredients):
     """deducts the ingredients used to prepare the order from the resources remember: is resources sufficient is
     already checked and ensured so, we are confident that: resources[x] - order_ingredients[x] can never give
     negative values"""
     for ingredients in order_ingredients:
-        resources[ingredients] -= order_ingredients[ingredients]
+        resource[ingredients] -= order_ingredients[ingredients]
 
 
 def refill_machine():
