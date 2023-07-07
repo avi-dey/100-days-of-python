@@ -1,0 +1,9 @@
+## Why IDE?
+
+1. TODO
+2. IDE linters your code: pep 8 style guide
+3. spilt screen
+4. local history: go back in history
+5. view structure: view all variables
+6. spell check
+7. refractor and rename (modify all occurences(including strings) or only modify the variables/function names)
