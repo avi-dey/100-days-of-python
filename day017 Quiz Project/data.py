@@ -1,16 +1,40 @@
 question_data = [
-    {"text": "A slug's blood is green.", "answer": "True"},
-    {"text": "The loudest animal is the African Elephant.", "answer": "False"},
-    {"text": "Approximately one quarter of human bones are in the feet.", "answer": "True"},
-    {"text": "The total surface area of a human lungs is the size of a football pitch.", "answer": "True"},
-    {"text": "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home"
-             "to eat.", "answer": "True"},
-    {"text": "In London, UK, if you happen to die in the House of Parliament, you are entitled to a state funeral.",
-     "answer": "False"},
-    {"text": "It is illegal to pee in the Ocean in Portugal.", "answer": "True"},
-    {"text": "You can lead a cow down stairs but not up stairs.", "answer": "False"},
-    {"text": "Google was originally called 'Backrub'.", "answer": "True"},
-    {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
-    {"text": "No piece of square dry paper can be folded in half more than 7 times.", "answer": "False"},
-    {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
+    {"category": "Entertainment: Music", "type": "boolean",
+     "difficulty": "easy",
+     "question": "The music video to The Buggle&#039;s &quot;Video Killed the Radio Star&quot;"
+                 " was the first music video to broadcast on MTV.",
+     "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "Animals", "type": "boolean", "difficulty": "easy",
+     "question": "Kangaroos keep food in their pouches next to their children.",
+     "correct_answer": "False",
+     "incorrect_answers": ["True"]},
+    {"category": "Science: Computers", "type": "boolean", "difficulty":
+        "easy", "question": "The logo for Snapchat is a Bell.",
+     "correct_answer": "False",
+     "incorrect_answers": ["True"]},
+    {"category": "Politics", "type": "boolean", "difficulty": "easy",
+     "question": "Despite being seperated into multiple countries,"
+        "The Scandinavian countries are unified by all having the same monarch.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Board Games", "type": "boolean", "difficulty": "easy",
+     "question": "The Angry Video Game Nerd&#039;s alter ego is &quot;Board James&quot;.", "correct_answer": "True",
+     "incorrect_answers": ["False"]},
+    {"category": "Science: Computers", "type": "boolean", "difficulty": "easy",
+     "question": "Time on Computers is measured via the EPOX System.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Mythology", "type": "boolean", "difficulty": "easy",
+     "question": "According to Greek Mythology, Atlas was an Olympian God.", "correct_answer": "False",
+     "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "easy", "question":
+        "In RuneScape, one must complete the &quot;Dragon Slayer&quot;"
+        " quest before equipping Rune Platelegs.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "easy",
+     "question": "&quot;Metal Gear Solid 3: Snake Eater&quot; was released in 2004.",
+     "correct_answer": "True",
+     "incorrect_answers": ["False"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "easy",
+     "question": "&quot;Resident Evil 7&quot; is the first first-person Resident Evil game.",
+     "correct_answer": "False",
+     "incorrect_answers": ["True"]}
 ]

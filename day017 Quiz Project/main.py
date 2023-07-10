@@ -5,8 +5,8 @@ from quiz_brain import QuizBrain
 # convert the question data (which is in dict format) to objects
 question_bank = []
 for ques in question_data:
-    ques_text = ques["text"]
-    ques_ans = ques["answer"]
+    ques_text = ques["question"]
+    ques_ans = ques["correct_answer"]
     question_bank.append(Question(ques_text, ques_ans))
 
 quiz = QuizBrain(question_bank)
